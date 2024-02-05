@@ -1,0 +1,52 @@
+%flex-center-extend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%home-second-block-extend {
+    width: 350px;
+    height: 360px;
+    margin: 30px 17px 0 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: 200ms
+}
+
+.home-image-slider-container {
+   @extend %flex-center-extend;
+}
+
+.home-second-block-container {
+    @extend %flex-center-extend;
+}
+
+.home-second-block-1 {
+    @extend %home-second-block-extend;
+    background: url(https://45mebel.ru/wp-content/uploads/2022/01/inst4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-second-block-2 {
+    @extend %home-second-block-extend;
+    background: url(https://delfika.ru/image/data/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202/po69355489_152398659411994_7177926495335351490_n.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-second-block-3 {
+    @extend %home-second-block-extend;
+    background: url(https://img.ixbt.site/live/topics/preview/00/02/42/49/bad90deefe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.second-block-content {
+    position: relative;
+    top: 155px;
+    text-shadow: 1px 1px 15px #111;
+    font-size: 37px;
+    font-weight: 800;
+    color: #fff;
+}

@@ -1,0 +1,21 @@
+.about-row {
+    width: 80%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title {
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.about-content {
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
